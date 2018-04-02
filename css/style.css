@@ -295,11 +295,50 @@ header nav ul li a:hover{
     padding: 6.25rem 0;
 }
 
-.more-feature-block .single-more-feature{
-    position: relative;
-    padding: 0 0 0 1.5rem;
+.feature-list ul{
+    list-style: none;
+
 }
-.more-feature-block .single-more-feature h3{
+.feature-list li{
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 80px;
+
+}
+.feature-list li:hover i{
+    color:white;
+    background-color: deepskyblue;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.features-icon {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.features-icon i{
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    font-size: 30px;
     color:deepskyblue;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid deepskyblue;
+    line-height: 63px;
+}
+
+.feature-details h3{
+    color: deepskyblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.feature-details p{
+    color: #616161;
+    font-weight: 200;
 }
 /* end more-feature */
